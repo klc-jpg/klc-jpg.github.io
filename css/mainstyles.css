@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+
 * {
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
@@ -31,9 +34,10 @@ h1.test {
     display: block;
     width: 30%;
     height: 30%;
-    transform: translate(-50%, -50%);
-    font-family: 'Roboto', sans-serif;
+    transform: translate(50%, -50%);
+    font-family: 'Supermercado One', cursive;
     font-weight: 400;
+    font-size: 1.5em;
     color: #FFA500;
     background-color: #00008B;
 }
