@@ -1,0 +1,39 @@
+* {
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+html {
+    background-color: #cccccc;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+section.header {
+    display: flex;
+    width: 30%;
+    height: 30%;
+    transform: translate(-50%, -50%);
+}
+
+h1.test {
+    display: block;
+    width: 30%;
+    height: 30%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #FFA500;
+    background-color: #00008B;
+}
